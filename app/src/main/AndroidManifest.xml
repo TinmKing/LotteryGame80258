@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.king_mac.lotterygame80258" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LotteryInformation"
+            android:label="@string/title_activity_lottery_information" >
+        </activity>
+        <activity
+            android:name=".TodayRecommendation"
+            android:label="@string/title_activity_today_recommendation" >
+        </activity>
+        <activity
+            android:name=".LotteryIntroduction"
+            android:label="@string/title_activity_lottery_introduction" >
+        </activity>
+        <activity
+            android:name=".FixedNoService"
+            android:label="@string/title_activity_fixed_no_service" >
+        </activity>
+        <activity
+            android:name=".LotteryFund"
+            android:label="@string/title_activity_lottery_fund" >
+        </activity>
+        <activity
+            android:name=".AboutShop"
+            android:label="@string/title_activity_about_shop" >
+        </activity>
+        <activity
+            android:name=".LotteryResult"
+            android:label="@string/title_activity_lottery_result" >
+        </activity>
+    </application>
+
+</manifest>

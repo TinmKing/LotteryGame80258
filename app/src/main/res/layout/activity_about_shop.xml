@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.king_mac.lotterygame80258.AboutShop">
+
+    <!--标题部分-->
+    <RelativeLayout
+        android:id="@+id/about_shop_title"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关于本店"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_normal" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/about_shop_title">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 
+    智能彩票投注系统是一款专业为彩票投注站量身订做的自助购彩系统，投注站利用该套系统既可以发展地面用户也可以发展远程用户，让彩民可以足不出户就能购买本店的彩票，业主利用平台可面向广大网民用户宣传推广自己的彩票投注站而达到增加销量的目的。"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="联系人：方世敏
+联系电话：13452500700
+传    真：
+联系手机：联系请说：装饰E站通看到的，另有优惠！
+邮政编码：
+电子邮件：harrycike@163.com
+QQ：1048386975
+MSN：
+联系地址：重庆市-市辖区-九龙坡区
+公司网址："/>
+    </LinearLayout>
+</RelativeLayout>

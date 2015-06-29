@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LotteryGame80258</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lottery_information">LotteryInformation</string>
+    <string name="title_activity_today_recommendation">TodayRecommendation</string>
+    <string name="title_activity_lottery_introduction">LotteryIntroduction</string>
+    <string name="title_activity_fixed_no_service">FixedNoService</string>
+    <string name="title_activity_lottery_fund">LotteryFund</string>
+    <string name="title_activity_about_shop">AboutShop</string>
+    <string name="title_activity_lottery_result">LotteryResult</string>
+</resources>
